@@ -221,3 +221,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- 팀 프로젝트 추가 ----
+# 모델 가중치 (용량 큼)
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.safetensors
+*.h5
+models/
+weights/
+
+# 데이터셋 / 강의자료 (용량, 저작권)
+data/
+datasets/
+*.pdf
+
+# 오디오 / 녹화 (용량, 개인정보)
+*.wav
+*.mp3
+*.m4a
+recordings/
+
+# 개인 편집기 설정
+.vscode/
+.idea/
+.DS_Store
